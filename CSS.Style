@@ -1,0 +1,49 @@
+Body {
+  Font-family: Arial, sans-serif;
+  Margin: 0;
+  Padding: 20px;
+}
+
+H1 {
+  Text-align: center;
+  Font-size: 2em;
+  Margin-bottom: 10px;
+}
+
+P {
+  Font-style: italic;
+  Text-align: center;
+  Margin-bottom: 20px;
+}
+
+Table {
+  Width: 100%;
+  Border-collapse: collapse;
+  Margin: auto;
+}
+
+Th, td {
+  Padding: 10px;
+  Border: 1px solid #ddd;
+  Text-align: left;
+}
+
+Th {
+  Background-color: #f2f2f2;
+  Font-weight: bold;
+}
+
+Td:first-child {
+  Width: 150px;
+}
+
+Td img {
+  Width: 100%;
+  Height: auto;
+}
+
+Tbody tr:nth-child(even) {
+  Background-color: #f9f9f9;
+}
+ 
+
